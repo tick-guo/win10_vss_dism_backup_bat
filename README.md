@@ -8,3 +8,7 @@ you can backup win10+ system when system is running, with simple cmd command
 
 #
 + 只能备份运行中的系统，dism虽然也可以离线，在pe中备份系统，但是不是本脚本的关注点
+
+# 使用步骤
++ 将WimScript.ini，vss_backup_run.cmd 放到一个空间足够的目录
++ 用管理员权限运行vss_backup_run.cmd即可
